@@ -99,7 +99,7 @@ class DropoutLayer(object):
         """
         assert 0. <= p < 1.
         self.p = p
-        self.rng = T.shared_randomstreams.RandomStreams(seed=123456)
+        self.rng = T.shared_randomstreams.RandomStreams(seed=1234)
         self.name = name
 
     def link(self, input):

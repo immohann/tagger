@@ -13,7 +13,7 @@ from optimization import Optimization
 
 
 class Model(object):
-    """
+    """ 
     Network architecture.
     """
     def __init__(self, parameters=None, models_path=None, model_path=None):
